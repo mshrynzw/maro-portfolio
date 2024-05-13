@@ -2,6 +2,7 @@ import React from "react"
 import Image from "next/image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faRocket } from "@fortawesome/free-solid-svg-icons"
+import Hero from "@/components/Hero"
 
 export default function Home() {
   return (
@@ -31,22 +32,7 @@ export default function Home() {
       {/*  </div>*/}
       {/*</div>*/}
 
-      <section id="home" className="container mx-auto flex w-full items-center justify-between px-8 md:px-14 lg:px-24">
-        <div className="flex flex-wrap md:flex-nowrap">
-          <div className="flex max-w-xl flex-wrap justify-center rounded-md border border-gray-200/30 bg-gray-800/30 p-4 shadow-lg backdrop-blur-lg md:my-36 md:justify-start lg:ml-20">
-            <h1 className="text-center text-5xl font-bold md:text-left md:text-6xl lg:text-7xl">
-              TailWindCSS<br />
-              美しいサイト<br />
-              作ります
-            </h1>
-            <button className="mt-4 flex items-center rounded-lg bg-blue-600 px-6 py-4 font-bold text-white transition-all duration-300 space-x-3 hover:bg-blue-500 h-12">
-              <FontAwesomeIcon icon={faRocket} className="h-[20px] hover:text-blue-400"/>
-              <span>もっと見る</span>
-            </button>
-          </div>
-          <Image src="/images/home.png" alt="home" width={1024} height={1024} className="right-6 -z-10 mx-auto mt-12 w-10/12 md:absolute md:mt-0 md:w-3/5 lg:top-36 lg:right-52 lg:max-w-xl"/>
-        </div>
-      </section>
+      <Hero/>
 
       <div
         className="mt-48 mb-12 relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">

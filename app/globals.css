@@ -4,7 +4,7 @@
 
 :root {
     --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
+    --background-start-rgb: 255, 255, 255;
     --background-end-rgb: 255, 255, 255;
 }
 
@@ -41,9 +41,13 @@ body {
 
 .secondary-title::before {
     content: "";
-    @apply block w-12 h-2 bg-blue-600 rounded-full mb-1;
+    @apply mb-1 block h-2 w-12 rounded-full bg-blue-600;
 }
 
 .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-3xl
+    @apply my-6 w-full max-w-3xl text-secondary;
+}
+
+.badge {
+    @apply rounded px-4 py-2 text-sm text-white bg-badge;
 }

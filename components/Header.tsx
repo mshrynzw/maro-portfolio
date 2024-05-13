@@ -16,9 +16,9 @@ const Header : React.FC = () => {
           <FontAwesomeIcon icon={faBriefcase} className="h-[20px]"/>
           <div>Portfolio</div>
         </Link>
-        <Link href="/#technique" className="header-link group">
+        <Link href="/#skill" className="header-link group">
           <FontAwesomeIcon icon={faMicrochip} className="h-[20px]"/>
-          <div>Technique</div>
+          <div>Skill</div>
         </Link>
         <Link href="/#contact" className="header-link group">
           <FontAwesomeIcon icon={faAddressBook} className="h-[20px]"/>

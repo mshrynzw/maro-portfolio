@@ -23,9 +23,11 @@ const Footer : React.FC = () => {
       </div>
       <div className="order-3 justify-self-center md:order-2 flex items-center">Copyright © {new Date().getFullYear()} mshr</div>
       <div className="order-2 justify-self-center md:order-3">
-        <Link href="mailto:mshr@gmail.com" className="flex items-center rounded border border-transparent p-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <FontAwesomeIcon icon={faEnvelope} className="h-[20px]"/>
-          <div className="ml-3">mshr@gmail.com</div>
+        <Link href="mailto:mshr@gmail.com" >
+          <button className="mx-auto flex h-12 items-center rounded-lg bg-blue-600 px-6 py-4 font-bold text-white transition-all duration-300 space-x-3 hover:bg-blue-500">
+            <FontAwesomeIcon icon={faEnvelope} className="h-[20px]"/>
+            <div className="ml-3">mshr@gmail.com</div>
+          </button>
         </Link>
       </div>
     </footer>

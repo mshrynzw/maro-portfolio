@@ -16,7 +16,7 @@ const Hero : React.FC = () => {
           </h1>
           <Link href="/#portfolio">
             <button className="mx-auto mt-4 flex h-12 items-center rounded-lg bg-blue-600 px-6 py-4 font-bold text-white transition-all duration-300 space-x-3 hover:bg-blue-500">
-              <FontAwesomeIcon icon={faRocket} className="h-[20px] hover:text-blue-400"/>
+              <FontAwesomeIcon icon={faRocket} className="h-[20px]"/>
               <span>もっと見る</span>
             </button>
           </Link>

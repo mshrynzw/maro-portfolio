@@ -28,7 +28,7 @@ const Header : React.FC = () => {
         <FontAwesomeIcon icon={faBars} className="h-[20px]"/>
       </button>
       {isOpen && (
-        <nav className="absolute top-24 right-0 bg-slate-50 bg-opacity-95 p-4 text-black shadow-xl backdrop-blur-sm space-y-2 dark:bg-neutral-900 dark:text-white">
+        <nav className="absolute top-24 right-0 rounded-bl-lg bg-slate-50 bg-opacity-95 p-4 text-black shadow-xl backdrop-blur-sm space-y-2 dark:bg-neutral-900 dark:text-white">
           <Link href="/" className="header-link group" onClick={() => setIsOpen(!isOpen)}>
             <FontAwesomeIcon icon={faHouse} className="h-[20px]"/>
             <div>Home</div>

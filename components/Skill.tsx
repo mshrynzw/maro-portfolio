@@ -14,7 +14,7 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-yellow-300 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faJs} className="text-yellow-300 w-[144px]"/>
+              <FontAwesomeIcon icon={faJs} className="text-yellow-300 w-[144px]" style={{ fontSize: "144px" }}/>
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">JavaScript</h3>
@@ -31,7 +31,7 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-blue-600 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faPython} className="text-blue-600 w-[144px]"/>
+              <FontAwesomeIcon icon={faPython} className="text-blue-600 w-[144px]" style={{ fontSize: "144px" }}/>
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">Python</h3>
@@ -48,7 +48,7 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-red-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faGem} className="text-red-800 w-[144px]"/>
+              <FontAwesomeIcon icon={faGem} className="text-red-800 w-[144px]" style={{ fontSize: "144px" }}/>
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">Ruby</h3>
@@ -64,7 +64,7 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-orange-400 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faJava} className="text-orange-400 w-[144px]"/>
+              <FontAwesomeIcon icon={faJava} className="text-orange-400 w-[144px]" style={{ fontSize: "144px" }}/>
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">Java</h3>
@@ -80,7 +80,7 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-purple-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faC} className="text-purple-800 w-[144px]"/>
+              <FontAwesomeIcon icon={faC} className="text-purple-800 w-[144px]" style={{ fontSize: "144px" }}/>
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">C#</h3>

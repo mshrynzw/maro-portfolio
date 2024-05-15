@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faAddressBook, faBars, faBriefcase, faHouse, faMicrochip } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faBriefcase, faHouse, faMicrochip } from "@fortawesome/free-solid-svg-icons"
 
 const Header : React.FC = () => {
   return (
@@ -19,10 +19,6 @@ const Header : React.FC = () => {
         <Link href="/#skill" className="header-link group">
           <FontAwesomeIcon icon={faMicrochip} className="h-[20px]"/>
           <div>Skill</div>
-        </Link>
-        <Link href="/#contact" className="header-link group">
-          <FontAwesomeIcon icon={faAddressBook} className="h-[20px]"/>
-          <div>Contact</div>
         </Link>
       </nav>
       <div className="rounded-md border px-3 py-2 md:hidden">

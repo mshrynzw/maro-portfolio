@@ -6,7 +6,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const Footer : React.FC = () => {
   return (
-    <footer className="mx-0 grid w-full grid-cols-1 bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl space-y-2 dark:bg-neutral-900 dark:bg-opacity-90 md:space-y-0 md:grid-cols-3 md:px-14 lg:px-24">
+    <footer className="mx-0 grid w-full grid-cols-1 bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm space-y-2 dark:bg-neutral-900 dark:bg-opacity-90 md:space-y-0 md:grid-cols-3 md:px-14 lg:px-24">
       <div className="order-1 flex items-center justify-self-center space-x-3">
         <div>
           {/*TODO:Link*/}

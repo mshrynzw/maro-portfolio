@@ -18,7 +18,7 @@ const RootLayout = ({ children } : Readonly<{ children : React.ReactNode }>) => 
     <html lang="ja">
     <body className={inter.className}>
     <div className="flex flex-col">
-      <Header/>
+      <div className="sticky top-0"><Header/></div>
       <div className="flex-grow">{children}</div>
       <div className="sticky bottom-0"><Footer/></div>
     </div>

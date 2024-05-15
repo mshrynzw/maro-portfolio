@@ -5,7 +5,7 @@ import { faBars, faBriefcase, faHouse, faMicrochip } from "@fortawesome/free-sol
 
 const Header : React.FC = () => {
   return (
-    <header className="shadow-xl mx-0 flex w-full items-center justify-between bg-slate-50 bg-opacity-90 dark:bg-opacity-90 px-8 py-6 dark:bg-neutral-900 md:px-14 lg:px-24">
+    <header className="mx-0 flex w-full items-center justify-between bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm dark:bg-neutral-900 dark:bg-opacity-90 md:px-14 lg:px-24">
       <div className="text-5xl font-bold">mshr</div>
       <nav className="hidden space-x-2 md:flex">
         <Link href="/" className="header-link group">

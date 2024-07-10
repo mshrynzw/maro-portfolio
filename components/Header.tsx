@@ -9,7 +9,7 @@ const Header : React.FC = () => {
 
   return (
     <header className="mx-0 flex w-full items-center justify-between bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm dark:bg-neutral-900 md:px-14 lg:px-24">
-      <div className="text-5xl font-bold">mshr</div>
+      <div className="text-5xl font-bold">maro</div>
       <nav className="hidden space-x-2 md:flex">
         <Link href="/" className="header-link group">
           <FontAwesomeIcon icon={faHouse} className="h-[20px]"/>

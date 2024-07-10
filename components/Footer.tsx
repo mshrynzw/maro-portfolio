@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSquareXTwitter, faSquareInstagram, faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faSquareXTwitter, faGithub, faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const Footer : React.FC = () => {
@@ -14,19 +14,20 @@ const Footer : React.FC = () => {
         </div>
         <div>
           {/*TODO:Link*/}
-          <FontAwesomeIcon icon={faSquareInstagram} className="h-[20px] hover:text-pink-400"/>
+          <FontAwesomeIcon icon={faSquareFacebook} className="h-[20px] hover:text-pink-400"/>
         </div>
         <div>
-          {/*TODO:Link*/}
-          <FontAwesomeIcon icon={faSquareFacebook} className="h-[20px] hover:text-blue-600"/>
+          <Link href="https://github.com/mshrynzw">
+            <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+          </Link>
         </div>
       </div>
-      <div className="order-3 flex items-center justify-self-center md:order-2">Copyright © {new Date().getFullYear()} mshr</div>
+      <div className="order-3 flex items-center justify-self-center md:order-2">Copyright © {new Date().getFullYear()} maro</div>
       <div className="order-2 justify-self-center md:order-3">
-        <Link href="mailto:mshr@gmail.com" >
+        <Link href="mailto:maro00521000@gmail.com">
           <button className="mx-auto flex h-12 items-center rounded-lg bg-blue-600 px-6 py-4 font-bold text-white shadow-2xl transition-all duration-300 space-x-3 hover:bg-blue-500">
             <FontAwesomeIcon icon={faEnvelope} className="h-[20px]"/>
-            <div className="ml-3">mshr@gmail.com</div>
+            <div className="ml-3">maro00521000@gmail.com</div>
           </button>
         </Link>
       </div>

@@ -8,8 +8,8 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets : ["latin"] })
 
 export const metadata : Metadata = {
-  title : "mshr",
-  description : "mshr",
+  title : "maro",
+  description : "maro",
   icons : [{ rel : "icon", url : Favicon.src }]
 }
 

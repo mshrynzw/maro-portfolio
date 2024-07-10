@@ -20,7 +20,9 @@ const Portfolio : React.FC = () => {
           <Link href="https://schedule-diary.vercel.app/">
             <Image src="/images/portfolio3.jpg" alt="portfolio3" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
           </Link>
-          <Image src="/images/portfolio4.jpg" alt="portfolio4" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+          <Link href="https://nextjs-music-measure.vercel.app/">
+            <Image src="/images/portfolio4.jpg" alt="portfolio4" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+          </Link>
           <Image src="/images/portfolio5.jpg" alt="portfolio5" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
           <Image src="/images/portfolio6.jpg" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
         </div>

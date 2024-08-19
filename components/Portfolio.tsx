@@ -12,7 +12,7 @@ const Portfolio : React.FC = () => {
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <Link href="https://www.be-side-your.life/">
-            <Image src="/images/portfolio1.jpg" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
           </Link>
           <Link href="https://sekai-no-hekokitai-88ytcux35-mshrynzw.vercel.app/">
             <Image src="/images/portfolio2.jpg" alt="portfolio2" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>

@@ -23,6 +23,17 @@ body {
             transparent,
             rgb(var(--background-end-rgb))
     ) rgb(var(--background-start-rgb));
+    overflow: auto;
+    margin:0;
+}
+
+canvas{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 @layer utilities {
@@ -51,3 +62,5 @@ body {
 .badge {
     @apply rounded px-4 py-2 text-sm text-white bg-badge;
 }
+
+

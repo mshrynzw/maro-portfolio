@@ -8,7 +8,7 @@ const Header : React.FC = () => {
   const [isOpen, setIsOpen] = useState<Boolean>(false)
 
   return (
-    <header className="mx-0 flex w-full items-center justify-between bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm dark:bg-neutral-900 md:px-14 lg:px-24">
+    <header className="relative z-10 mx-0 flex w-full items-center justify-between bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm dark:bg-neutral-900 md:px-14 lg:px-24">
       <div className="text-5xl font-bold">maro</div>
       <nav className="hidden space-x-2 md:flex">
         <Link href="/" className="header-link group">

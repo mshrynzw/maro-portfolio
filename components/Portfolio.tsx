@@ -18,11 +18,15 @@ const Portfolio : React.FC = () => {
               <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-              <Link className="badge" href="https://github.com/mshrynzw">
+              <Link className="badge" href="https://github.com/mshrynzw/be-side_your_life-new_hp">
+                <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+              </Link>
+              <Link className="badge" href="https://github.com/mshrynzw/be-side_your_life-new_hp_data">
                 <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
               </Link>
               <div className="badge">Next.js</div>
               <div className="badge">React</div>
+              <div className="badge">Python</div>
             </div>
           </div>
 

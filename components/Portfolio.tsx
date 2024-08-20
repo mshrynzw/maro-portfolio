@@ -14,7 +14,7 @@ const Portfolio : React.FC = () => {
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <Link href="https://github.com/mshrynzw/be-side_your_life-new_hp">
+            <Link href="https://www.be-side-your.life/">
               <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">

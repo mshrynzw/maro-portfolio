@@ -32,6 +32,7 @@ const Home = () => {
     )
     camera.position.z = 400
     const renderer = new THREE.WebGLRenderer({
+      antialias:true,
       canvas : canvas
     })
     renderer.setSize(sizes.width, sizes.height)

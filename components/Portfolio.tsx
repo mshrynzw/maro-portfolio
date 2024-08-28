@@ -14,44 +14,125 @@ const Portfolio : React.FC = () => {
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <Link href="https://www.be-side-your.life/">
-              <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <h3 className="tertiary-title">Blog</h3>
+            <Link href="https://www.be-side-your.life/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-              <Link className="badge" href="https://github.com/mshrynzw/be-side_your_life-new_hp">
-                <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+              <Link href="https://github.com/mshrynzw/be-side_your_life-new_hp" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
               </Link>
-              <Link className="badge" href="https://github.com/mshrynzw/be-side_your_life-new_hp_data">
-                <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+              <Link href="https://github.com/mshrynzw/be-side_your_life-new_hp_data" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
               </Link>
               <div className="badge">Next.js</div>
               <div className="badge">React</div>
+              <div className="badge">SSG</div>
+              <div className="badge">Three.js</div>
+              <div className="badge">AWS</div>
               <div className="badge">Python</div>
+              <div className="badge">Webスクレイピング</div>
             </div>
           </div>
 
           <div>
-            <Link href="https://nextjs-threejs-works.vercel.app/">
-              <Image src="/images/portfolio2.png" alt="portfolio2" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <h3 className="tertiary-title">3DCG</h3>
+            <Link href="https://nextjs-webgl.vercel.app/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio2.png" alt="portfolio2" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-              <Link className="badge" href="https://github.com/mshrynzw/nextjs-threejs-works">
-                <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+              <Link href="https://github.com/mshrynzw/nextjs-webgl" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
               </Link>
               <div className="badge">Three.js</div>
+              <div className="badge">Shader</div>
+              <div className="badge">Next.js</div>
+              <div className="badge">React</div>
+              <div className="badge">Tailwind CSS</div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="tertiary-title">Groupware</h3>
+            <Link href="https://schedule-diary.vercel.app/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio3.jpg" alt="portfolio3" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/nextjs-firebase-groupware" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">Next.js</div>
+              <div className="badge">React</div>
+              <div className="badge">ISR</div>
+              <div className="badge">SSR</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Firebase</div>
+            </div>
+          </div>
+
+
+          <div>
+            <h3 className="tertiary-title">Web APP</h3>
+            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/text_summary" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">表計算</div>
+              <div className="badge">Ruby</div>
+              <div className="badge">Ruby on Rails</div>
+            </div>
+          </div>
+
+
+          <div>
+            <h3 className="tertiary-title">自然言語処理</h3>
+            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/text_summary" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">Python</div>
+              <div className="badge">テキスト要約</div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="tertiary-title">Web APP</h3>
+            <Link href="https://nextjs-music-measure.vercel.app/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio5.png" alt="portfolio4" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/nextjs_music_measure" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">DTM</div>
               <div className="badge">Next.js</div>
               <div className="badge">React</div>
             </div>
           </div>
-
-          <Link href="https://schedule-diary.vercel.app/">
-            <Image src="/images/portfolio3.jpg" alt="portfolio3" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
-          </Link>
-          <Link href="https://nextjs-music-measure.vercel.app/">
-            <Image src="/images/portfolio4.jpg" alt="portfolio4" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
-          </Link>
-          <Image src="/images/portfolio5.jpg" alt="portfolio5" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
-          <Image src="/images/portfolio6.jpg" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
         </div>
       </div>
     </section>

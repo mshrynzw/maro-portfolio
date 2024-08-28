@@ -55,6 +55,10 @@ canvas{
     @apply mb-1 block h-2 w-12 rounded-full bg-blue-600;
 }
 
+.tertiary-title {
+    @apply text-2xl font-bold text-center mb-2;
+}
+
 .section-paragraph {
     @apply my-6 w-full max-w-3xl text-secondary;
 }

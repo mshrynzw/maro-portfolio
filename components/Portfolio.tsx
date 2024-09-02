@@ -35,6 +35,8 @@ const Portfolio : React.FC = () => {
               <div className="badge">React</div>
               <div className="badge">SSG</div>
               <div className="badge">Three.js</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Vercel</div>
               <div className="badge">AWS</div>
               <div className="badge">Python</div>
               <div className="badge">Webスクレイピング</div>
@@ -58,6 +60,7 @@ const Portfolio : React.FC = () => {
               <div className="badge">Shader</div>
               <div className="badge">Next.js</div>
               <div className="badge">React</div>
+              <div className="badge">Vercel</div>
               <div className="badge">Tailwind CSS</div>
             </div>
           </div>
@@ -79,6 +82,9 @@ const Portfolio : React.FC = () => {
               <div className="badge">React</div>
               <div className="badge">ISR</div>
               <div className="badge">SSR</div>
+              <div className="badge">Server Action</div>
+              <div className="badge">Dynamic Import</div>
+              <div className="badge">Vercel</div>
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Firebase</div>
             </div>

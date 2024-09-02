@@ -1,24 +1,30 @@
 import React from "react"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSquareXTwitter, faGithub, faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
-import { faBriefcase, faEnvelope, faHouse, faMicrochip } from "@fortawesome/free-solid-svg-icons"
+import { faGithub, faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faBook, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const Footer : React.FC = () => {
   return (
     <footer className="mx-0 grid w-full grid-cols-1 bg-slate-50 bg-opacity-90 px-8 py-6 shadow-xl backdrop-blur-sm space-y-2 dark:bg-neutral-900 dark:bg-opacity-90 md:space-y-0 md:grid-cols-3 md:px-14 lg:px-24">
       <div className="order-1 flex items-center justify-self-center space-x-3">
-        <Link href="/" className="header-link group">
-          <FontAwesomeIcon icon={faHouse} className="h-[20px]"/>
-          <div>Home</div>
+        <Link href="https://github.com/mshrynzw" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer" className="header-link group">
+            <FontAwesomeIcon icon={faGithub} className="h-[20px]"/>
+            <div>Github</div>
+          </a>
         </Link>
-        <Link href="/#portfolio" className="header-link group">
-          <FontAwesomeIcon icon={faBriefcase} className="h-[20px]"/>
-          <div>Portfolio</div>
+        <Link href="https://zenn.dev/mshrynzw" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer" className="header-link group">
+            <FontAwesomeIcon icon={faBook} className="h-[20px]"/>
+            <div>Zenn</div>
+          </a>
         </Link>
-        <Link href="/#skill" className="header-link group">
-          <FontAwesomeIcon icon={faMicrochip} className="h-[20px]"/>
-          <div>Skill</div>
+        <Link href="https://www.facebook.com/kaoru.yuki.5264" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer" className="header-link group">
+            <FontAwesomeIcon icon={faSquareFacebook} className="h-[20px]"/>
+            <div>Facebook</div>
+          </a>
         </Link>
       </div>
       <div className="order-3 flex items-center justify-self-center md:order-2">Copyright © {new Date().getFullYear()} maro</div>

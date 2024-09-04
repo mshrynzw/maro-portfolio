@@ -87,29 +87,34 @@ const Portfolio : React.FC = () => {
               <div className="badge">Vercel</div>
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Firebase</div>
+              <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
             </div>
           </div>
 
 
           <div>
-            <h3 className="tertiary-title">Web APP</h3>
-            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <h3 className="tertiary-title">Chat</h3>
+            <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-              <Link href="https://github.com/mshrynzw/text_summary" legacyBehavior>
+              <Link href="https://github.com/mshrynzw/nuxt-realtime-chat" legacyBehavior>
                 <a className="badge" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
                 </a>
               </Link>
-              <div className="badge">表計算</div>
-              <div className="badge">Ruby</div>
-              <div className="badge">Ruby on Rails</div>
+              <div className="badge">Nuxt.js</div>
+              <div className="badge">Vue.js</div>
+              <div className="badge">SSG</div>
+              <div className="badge">AWS</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Supabase</div>
+              <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
             </div>
           </div>
 
-
           <div>
             <h3 className="tertiary-title">自然言語処理</h3>
-            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853}
+                   className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/text_summary" legacyBehavior>
                 <a className="badge" target="_blank" rel="noopener noreferrer">

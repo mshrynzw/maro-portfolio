@@ -10,7 +10,8 @@ const config : Config = {
     extend : {
       colors : {
         secondary : "#9191A4",
-        badge : "#3F3F51"
+        badge : "#3F3F51",
+        primary : "#e5e5e5"
       },
       backgroundImage : {
         "gradient-radial" : "radial-gradient(var(--tw-gradient-stops))",

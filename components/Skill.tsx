@@ -21,6 +21,8 @@ const Skill : React.FC = () => {
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Next.js</div>
                 <div className="badge">React</div>
+                <div className="badge">Nuxt.js</div>
+                <div className="badge">Vue.js</div>
               </div>
               <p className="text-secondary">
                 Webアプリケーションを開発します。

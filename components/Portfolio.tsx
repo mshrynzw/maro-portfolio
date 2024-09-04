@@ -94,7 +94,9 @@ const Portfolio : React.FC = () => {
 
           <div>
             <h3 className="tertiary-title">Chat</h3>
-            <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <Link href="http://ec2-18-179-37-90.ap-northeast-1.compute.amazonaws.com/" legacyBehavior>
+              <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/nuxt-realtime-chat" legacyBehavior>
                 <a className="badge" target="_blank" rel="noopener noreferrer">
@@ -103,7 +105,7 @@ const Portfolio : React.FC = () => {
               </Link>
               <div className="badge">Nuxt.js</div>
               <div className="badge">Vue.js</div>
-              <div className="badge">SSG</div>
+              <div className="badge">SSR</div>
               <div className="badge">AWS</div>
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Supabase</div>

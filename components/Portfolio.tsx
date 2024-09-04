@@ -17,7 +17,8 @@ const Portfolio : React.FC = () => {
             <h3 className="tertiary-title">Blog</h3>
             <Link href="https://www.be-side-your.life/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+                <Image src="/images/portfolio1.png" alt="portfolio1" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
               </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
@@ -47,7 +48,8 @@ const Portfolio : React.FC = () => {
             <h3 className="tertiary-title">3DCG</h3>
             <Link href="https://nextjs-webgl.vercel.app/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src="/images/portfolio2.png" alt="portfolio2" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+                <Image src="/images/portfolio2.png" alt="portfolio2" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
               </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
@@ -69,7 +71,8 @@ const Portfolio : React.FC = () => {
             <h3 className="tertiary-title">Groupware</h3>
             <Link href="https://schedule-diary.vercel.app/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src="/images/portfolio3.jpg" alt="portfolio3" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+                <Image src="/images/portfolio3.jpg" alt="portfolio3" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
               </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
@@ -95,7 +98,8 @@ const Portfolio : React.FC = () => {
           <div>
             <h3 className="tertiary-title">Chat</h3>
             <Link href="http://ec2-18-179-37-90.ap-northeast-1.compute.amazonaws.com/" legacyBehavior>
-              <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853}
+                     className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/nuxt-realtime-chat" legacyBehavior>
@@ -114,8 +118,25 @@ const Portfolio : React.FC = () => {
           </div>
 
           <div>
+            <h3 className="tertiary-title">Chat</h3>
+            <Image src="/images/portfolio3.jpg" alt="portfolio6" width={1280} height={853}
+                   className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/rails_realtime_chat" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">Ruby</div>
+              <div className="badge">Ruby on Rails</div>
+              <div className="badge">Railway</div>
+              <div className="badge">Back4app</div>
+            </div>
+          </div>
+
+          <div>
             <h3 className="tertiary-title">自然言語処理</h3>
-            <Image src="/images/portfolio6.webp" alt="portfolio6" width={1280} height={853}
+            <Image src="/images/portfolio3.jpg" alt="portfolio6" width={1280} height={853}
                    className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/text_summary" legacyBehavior>
@@ -125,25 +146,6 @@ const Portfolio : React.FC = () => {
               </Link>
               <div className="badge">Python</div>
               <div className="badge">テキスト要約</div>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="tertiary-title">Web APP</h3>
-            <Link href="https://nextjs-music-measure.vercel.app/" legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer">
-                <Image src="/images/portfolio5.png" alt="portfolio4" width={1280} height={853} className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
-              </a>
-            </Link>
-            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-              <Link href="https://github.com/mshrynzw/nextjs_music_measure" legacyBehavior>
-                <a className="badge" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
-                </a>
-              </Link>
-              <div className="badge">DTM</div>
-              <div className="badge">Next.js</div>
-              <div className="badge">React</div>
             </div>
           </div>
         </div>

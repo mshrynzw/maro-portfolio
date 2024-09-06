@@ -151,7 +151,7 @@ const Portfolio: React.FC = () => {
             <h3 className="tertiary-title">Homepage</h3>
             <Link href="https://angular-gsap-hp.vercel.app/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src="/images/portfolio4.png" alt="portfolio5" width={1280} height={853}
+                <Image src="/images/portfolio6.png" alt="portfolio5" width={1280} height={853}
                        className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
               </a>
             </Link>

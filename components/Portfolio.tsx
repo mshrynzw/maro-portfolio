@@ -115,13 +115,14 @@ const Portfolio : React.FC = () => {
               <div className="badge">SSR</div>
               <div className="badge">AWS</div>
               <div className="badge">Tailwind CSS</div>
+              <div className="badge">Preline UI</div>
               <div className="badge">Supabase</div>
               <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
             </div>
           </div>
 
           <div>
-            <h3 className="tertiary-title">Chat</h3>
+          <h3 className="tertiary-title">Chat</h3>
             <Link href="http://ec2-54-168-23-57.ap-northeast-1.compute.amazonaws.com:3000/messages" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Image src="/images/portfolio4.png" alt="portfolio5" width={1280} height={853}
@@ -138,13 +139,15 @@ const Portfolio : React.FC = () => {
               <div className="badge">Ruby on Rails</div>
               <div className="badge">Railway</div>
               <div className="badge">AWS</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Preline UI</div>
               <div className="badge">Back4app</div>
               <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
             </div>
           </div>
 
           <div>
-          <h3 className="tertiary-title">自然言語処理</h3>
+            <h3 className="tertiary-title">自然言語処理</h3>
             <Image src="/images/portfolio3.jpg" alt="portfolio6" width={1280} height={853}
                    className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">

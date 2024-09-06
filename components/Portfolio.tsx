@@ -1,12 +1,13 @@
 import React from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faGithub} from "@fortawesome/free-brands-svg-icons"
 
-const Portfolio : React.FC = () => {
+const Portfolio: React.FC = () => {
   return (
-    <section id="portfolio" className="container mx-auto mt-24 flex w-full items-center justify-between px-8 md:px-14 lg:px-24">
+    <section id="portfolio"
+             className="container mx-auto mt-24 flex w-full items-center justify-between px-8 md:px-14 lg:px-24">
       <div className="w-full">
         <h2 className="secondary-title">Portfolio</h2>
         <p className="section-paragraph">
@@ -122,7 +123,7 @@ const Portfolio : React.FC = () => {
           </div>
 
           <div>
-          <h3 className="tertiary-title">Chat</h3>
+            <h3 className="tertiary-title">Chat</h3>
             <Link href="http://ec2-54-168-23-57.ap-northeast-1.compute.amazonaws.com:3000/messages" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Image src="/images/portfolio4.png" alt="portfolio5" width={1280} height={853}
@@ -143,6 +144,28 @@ const Portfolio : React.FC = () => {
               <div className="badge">Preline UI</div>
               <div className="badge">Back4app</div>
               <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="tertiary-title">Homepage</h3>
+            <Link href="https://angular-gsap-hp.vercel.app/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio4.png" alt="portfolio5" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/angular-gsap-hp" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">Angular</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">GSAP</div>
+              <div className="badge">Vercel</div>
+              <div className="primary">開発中</div>
             </div>
           </div>
 

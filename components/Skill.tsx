@@ -95,30 +95,6 @@ const Skill : React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="my-4">
-          <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-green-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
-            <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faGear} className="text-green-800 w-[144px]" style={{ fontSize: "144px" }}/>
-            </div>
-            <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">Others</h3>
-              <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-                <div className="badge">MySQL</div>
-                <div className="badge">MongoDB</div>
-                <div className="badge">SupaBase</div>
-                <div className="badge">Strapi</div>
-                <div className="badge">Vercel</div>
-                <div className="badge">Render</div>
-                <div className="badge">Heroku</div>
-                <div className="badge">AWS</div>
-                <div className="badge">AmazonLinux</div>
-              </div>
-              <p className="text-secondary">
-                その他以上の技術を取得しています。
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

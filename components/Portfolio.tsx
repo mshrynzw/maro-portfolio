@@ -91,6 +91,7 @@ const Portfolio : React.FC = () => {
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Firebase</div>
               <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
+              <div className="primary">開発中</div>
             </div>
           </div>
 
@@ -98,8 +99,10 @@ const Portfolio : React.FC = () => {
           <div>
             <h3 className="tertiary-title">Chat</h3>
             <Link href="http://ec2-18-179-37-90.ap-northeast-1.compute.amazonaws.com/" legacyBehavior>
-              <Image src="/images/portfolio4.png" alt="portfolio6" width={1280} height={853}
-                     className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio4.png" alt="portfolio4" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
             </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/nuxt-realtime-chat" legacyBehavior>
@@ -119,8 +122,12 @@ const Portfolio : React.FC = () => {
 
           <div>
             <h3 className="tertiary-title">Chat</h3>
-            <Image src="/images/portfolio3.jpg" alt="portfolio6" width={1280} height={853}
-                   className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+            <Link href="http://ec2-54-168-23-57.ap-northeast-1.compute.amazonaws.com:3000/messages" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio4.png" alt="portfolio5" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
             <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
               <Link href="https://github.com/mshrynzw/rails_realtime_chat" legacyBehavior>
                 <a className="badge" target="_blank" rel="noopener noreferrer">
@@ -131,6 +138,7 @@ const Portfolio : React.FC = () => {
               <div className="badge">Ruby on Rails</div>
               <div className="badge">Railway</div>
               <div className="badge">Back4app</div>
+              <div className="primary">ID: test0001@gmail.com / PW :Te2t000!</div>
             </div>
           </div>
 

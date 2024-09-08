@@ -70,7 +70,7 @@ const Portfolio: React.FC = () => {
 
           <div>
             <h3 className="tertiary-title">Groupware</h3>
-            <Link href="https://schedule-diary.vercel.app/" legacyBehavior>
+            <Link href="/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Image src="/images/portfolio3-1.png" alt="portfolio3" width={1280} height={853}
                        className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>

@@ -183,6 +183,26 @@ const Portfolio: React.FC = () => {
               <div className="badge">テキスト要約</div>
             </div>
           </div>
+
+          <div>
+            <h3 className="tertiary-title">Todo</h3>
+            <Link href="https://laravel-todo-old-forest-9962.fly.dev/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio7.png" alt="portfolio1" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/laravel_todo" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">PHP</div>
+              <div className="badge">Laravel</div>
+              <div className="badge">fly.io</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

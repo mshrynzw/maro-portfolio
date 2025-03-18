@@ -19,6 +19,7 @@ const Skill : React.FC = () => {
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
               <h3 className="text-3xl font-semibold">JavaScript</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+                <div className="badge">TypeScript</div>
                 <div className="badge">Next.js</div>
                 <div className="badge">React</div>
                 <div className="badge">Nuxt.js</div>

@@ -15,6 +15,25 @@ const Portfolio: React.FC = () => {
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div>
+            <h3 className="tertiary-title">Synthesizer</h3>
+            <Link href="https://youtube.com/shorts/WwQJ8RWbWqA?feature=share" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src="/images/portfolio0.png" alt="portfolio0" width={1280} height={853}
+                       className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"/>
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/rust_synth" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-[20px] hover:text-blue-600"/>
+                </a>
+              </Link>
+              <div className="badge">Rust</div>
+              <div className="badge">DTM</div>
+            </div>
+          </div>
+
+          <div>
             <h3 className="tertiary-title">Blog</h3>
             <Link href="https://www.be-side-your.life/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">

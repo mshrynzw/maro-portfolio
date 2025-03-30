@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faJs, faPython, faJava, faPhp} from "@fortawesome/free-brands-svg-icons"
+import {faJs, faPython, faJava, faPhp, faRust} from "@fortawesome/free-brands-svg-icons"
 import { faGem, faC, faGear } from "@fortawesome/free-solid-svg-icons"
 
 const Skill : React.FC = () => {
@@ -105,6 +105,22 @@ const Skill : React.FC = () => {
               <h3 className="text-3xl font-semibold">PHP</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Laravel</div>
+              </div>
+              <p className="text-secondary">
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="my-4">
+          <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-purple-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
+            <div className="mb-6 self-center lg:mb-0">
+              <FontAwesomeIcon icon={faRust} className="text-blue-700 w-[144px]" style={{ fontSize: "144px" }}/>
+            </div>
+            <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
+              <h3 className="text-3xl font-semibold">Rust</h3>
+              <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+                <div className="badge">DTM</div>
               </div>
               <p className="text-secondary">
 

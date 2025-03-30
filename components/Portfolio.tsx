@@ -30,6 +30,7 @@ const Portfolio: React.FC = () => {
               </Link>
               <div className="badge">Rust</div>
               <div className="badge">DTM</div>
+              <div className="primary">開発中</div>
             </div>
           </div>
 

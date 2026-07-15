@@ -3,70 +3,71 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-    }
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-            to bottom,
-            transparent,
-            rgb(var(--background-end-rgb))
-    ) rgb(var(--background-start-rgb));
-    overflow: auto;
-    margin:0;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  overflow: auto;
+  margin: 0;
 }
 
-canvas{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+canvas {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 
-    .header-link {
-        @apply flex items-center rounded border border-transparent p-2 transition-colors space-x-3 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30;
-    }
+  .header-link {
+    @apply flex items-center rounded border border-transparent p-2 transition-colors space-x-3 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30;
+  }
 }
 
 .secondary-title {
-    @apply text-3xl font-bold;
+  @apply text-3xl font-bold text-white;
 }
 
 .secondary-title::before {
-    content: "";
-    @apply mb-1 block h-2 w-12 rounded-full bg-blue-600;
+  content: "";
+  @apply mb-1 block h-2 w-12 rounded-full bg-blue-600;
 }
 
 .tertiary-title {
-    @apply text-2xl font-bold text-center mb-2;
+  @apply text-2xl font-bold text-center mb-2 text-white;
 }
 
 .section-paragraph {
-    @apply my-6 w-full max-w-3xl text-secondary;
+  @apply my-2 w-full text-center text-secondary;
 }
 
 .badge {
-    @apply rounded px-4 py-2 text-sm text-white bg-badge;
+  @apply rounded px-4 py-2 text-sm text-white bg-badge;
 }
 
 .primary {
-    @apply rounded px-4 py-2 text-sm text-black bg-primary font-bold;
+  @apply rounded px-4 py-2 text-sm text-black bg-primary font-bold;
 }

@@ -19,6 +19,62 @@ const Portfolio: React.FC = () => {
           私が作ってきたWebアプリケーションがこちら
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {/* 画像解析アプリ */}
+          <div>
+            <h3 className="tertiary-title">画像解析アプリ</h3>
+            <Link href="https://iro-eta.vercel.app" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio8.png"
+                  alt="portfolio8"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/Iro" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="h-[20px] hover:text-blue-600"
+                  />
+                </a>
+              </Link>
+              <div className="badge">Next.js</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Vercel</div>
+            </div>
+          </div>
+          {/* 文字縦書きアプリ */}
+          <div>
+            <h3 className="tertiary-title">文字縦書きアプリ</h3>
+            <Link href="https://tate-gilt.vercel.app/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio9.png"
+                  alt="portfolio9"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/Tate" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="h-[20px] hover:text-blue-600"
+                  />
+                </a>
+              </Link>
+              <div className="badge">Next.js</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Vercel</div>
+            </div>
+          </div>
           {/* Blog・Webスクレイピング */}
           <div>
             <h3 className="tertiary-title">Blog・Webスクレイピング</h3>

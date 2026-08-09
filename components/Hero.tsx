@@ -13,10 +13,10 @@ const Hero: React.FC = () => {
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="mx-auto max-w-xl rounded-md p-4 bg-transparent shadow-lg md:my-36 lg:ml-20">
           <h1 className="text-center text-5xl text-white font-bold md:text-left md:text-6xl lg:text-7xl">
-            Next.js /
+            Next.js
             <br />
-            React Router
-            <br />
+            {/* React Router
+            <br /> */}
             モダンサイト
             <br />
             作ります

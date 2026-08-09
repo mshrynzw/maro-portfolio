@@ -19,6 +19,34 @@ const Portfolio: React.FC = () => {
           私が作ってきたWebアプリケーションがこちら
         </p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {/* タスク管理アプリ */}
+          <div>
+            <h3 className="tertiary-title">タスク管理アプリ</h3>
+            <Link href="https://task-manager.iq87io25.workers.dev" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio10.png"
+                  alt="portfolio10"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/nextjs-cloudflare_task-manager" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="h-[20px] hover:text-blue-600"
+                  />
+                </a>
+              </Link>
+              <div className="badge">Next.js</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Cloudflare</div>
+            </div>
+          </div>          
           {/* 画像解析アプリ */}
           <div>
             <h3 className="tertiary-title">画像解析アプリ</h3>
@@ -76,7 +104,7 @@ const Portfolio: React.FC = () => {
             </div>
           </div>
           {/* Blog・Webスクレイピング */}
-          <div>
+          {/* <div>
             <h3 className="tertiary-title">Blog・Webスクレイピング</h3>
             <Link href="https://www.be-side-your.life/" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
@@ -123,7 +151,7 @@ const Portfolio: React.FC = () => {
               <div className="badge">Webスクレイピング</div>
             </div>
           </div>
-
+ */}
           {/* 自然言語処理 */}
           <div>
             <h3 className="tertiary-title">自然言語処理</h3>
@@ -263,10 +291,42 @@ const Portfolio: React.FC = () => {
               <div className="badge">Framer Motion</div>
             </div>
           </div>
+{/* 3DCGホームページ */}
+<div>
+            <h3 className="tertiary-title">音楽サイト</h3>
+            <Link href="https://lovelive-trance.iq87io25.workers.dev" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio11.png"
+                  alt="portfolio11"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link
+                href="https://github.com/mshrynzw/lovelive-remix-trance"
+                legacyBehavior
+              >
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="h-[20px] hover:text-blue-600"
+                  />
+                </a>
+              </Link>
+              <div className="badge">Next.js</div>
+              <div className="badge">React</div>
+              <div className="badge">Cloudflare</div>
+              <div className="badge">Tailwind CSS</div>
+            </div>
+          </div>
           {/* 3DCGホームページ */}
           <div>
             <h3 className="tertiary-title">3DCG</h3>
-            <Link href="https://nextjs-webgl.vercel.app/" legacyBehavior>
+            <Link href="https://nextjs-webgl.vercel.app/aurora" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/images/portfolio2.png"

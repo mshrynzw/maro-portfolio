@@ -46,6 +46,34 @@ const Portfolio: React.FC = () => {
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Cloudflare</div>
             </div>
+          </div>
+          {/* タスク管理アプリ */}
+          <div>
+            <h3 className="tertiary-title">フォーム作成アプリ</h3>
+            <Link href="https://react-router-formly.iq87io25.workers.dev/" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio12.png"
+                  alt="portfolio12"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+              <Link href="https://github.com/mshrynzw/react-router-formly" legacyBehavior>
+                <a className="badge" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="h-[20px] hover:text-blue-600"
+                  />
+                </a>
+              </Link>
+              <div className="badge">React Router</div>
+              <div className="badge">Tailwind CSS</div>
+              <div className="badge">Cloudflare</div>
+            </div>
           </div>          
           {/* 画像解析アプリ */}
           <div>
@@ -291,8 +319,8 @@ const Portfolio: React.FC = () => {
               <div className="badge">Framer Motion</div>
             </div>
           </div>
-{/* 3DCGホームページ */}
-<div>
+          {/* 3DCGホームページ */}
+          <div>
             <h3 className="tertiary-title">音楽サイト</h3>
             <Link href="https://lovelive-trance.iq87io25.workers.dev" legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">

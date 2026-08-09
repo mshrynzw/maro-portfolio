@@ -35,8 +35,7 @@ const Skill: React.FC = () => {
                 <div className="badge">TypeScript</div>
                 <div className="badge">Next.js</div>
                 <div className="badge">React</div>
-                <div className="badge">Nuxt.js</div>
-                <div className="badge">Vue.js</div>
+                <div className="badge">React Router</div>
               </div>
               <p className="text-secondary">
                 Webアプリケーションを開発します。
@@ -138,6 +137,7 @@ const Skill: React.FC = () => {
               <h3 className="text-3xl font-semibold text-white">PHP</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Laravel</div>
+                <div className="badge">WordPressテーマ</div>
               </div>
               <p className="text-secondary"></p>
             </div>

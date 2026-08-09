@@ -1,23 +1,36 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faJs, faPython, faJava, faPhp, faRust} from "@fortawesome/free-brands-svg-icons"
-import { faGem, faC, faGear } from "@fortawesome/free-solid-svg-icons"
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faJs,
+  faPython,
+  faJava,
+  faPhp,
+  faRust,
+} from "@fortawesome/free-brands-svg-icons";
+import { faGem, faC, faGear } from "@fortawesome/free-solid-svg-icons";
 
-const Skill : React.FC = () => {
+const Skill: React.FC = () => {
   return (
-    <section id="skill" className="container mx-auto mt-24 flex w-full items-center justify-between px-8 md:px-14 lg:px-24">
+    <section
+      id="skill"
+      className="container mx-auto mt-24 flex w-full items-center justify-between px-8 md:px-14 lg:px-24"
+    >
       <div className="w-full">
-        <h2 className="secondary-title">Skill</h2>
+        <h2 className="secondary-title text-white">Skill</h2>
         <p className="section-paragraph">
           私は以下のプログラミング言語を扱ってきました。
         </p>
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-yellow-300 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faJs} className="text-yellow-300 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faJs}
+                className="text-yellow-300 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">JavaScript</h3>
+              <h3 className="text-3xl font-semibold text-white">JavaScript</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">TypeScript</div>
                 <div className="badge">Next.js</div>
@@ -34,10 +47,14 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-blue-600 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faPython} className="text-blue-600 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faPython}
+                className="text-blue-600 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">Python</h3>
+              <h3 className="text-3xl font-semibold text-white">Python</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Webスクレイピング</div>
                 <div className="badge">自然言語処理</div>
@@ -51,10 +68,14 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-red-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faGem} className="text-red-800 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faGem}
+                className="text-red-800 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">Ruby</h3>
+              <h3 className="text-3xl font-semibold text-white">Ruby</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Ruby on Rails</div>
               </div>
@@ -67,10 +88,14 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-orange-400 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faJava} className="text-orange-400 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faJava}
+                className="text-orange-400 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">Java</h3>
+              <h3 className="text-3xl font-semibold text-white">Java</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Servlet/JSP</div>
               </div>
@@ -83,10 +108,14 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-purple-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faC} className="text-purple-800 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faC}
+                className="text-purple-800 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">C#</h3>
+              <h3 className="text-3xl font-semibold text-white">C#</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">ASP.NET</div>
               </div>
@@ -99,38 +128,24 @@ const Skill : React.FC = () => {
         <div className="my-4">
           <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-purple-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
             <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faPhp} className="text-blue-400 w-[144px]" style={{ fontSize: "144px" }}/>
+              <FontAwesomeIcon
+                icon={faPhp}
+                className="text-blue-400 w-[144px]"
+                style={{ fontSize: "144px" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">PHP</h3>
+              <h3 className="text-3xl font-semibold text-white">PHP</h3>
               <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
                 <div className="badge">Laravel</div>
               </div>
-              <p className="text-secondary">
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="my-4">
-          <div className="flex w-full flex-wrap justify-center rounded border p-16 duration-300 hover:border-purple-800 dark:border-blue-950 lg:space-x-32 lg:justify-start lg:px-16 lg:py-14">
-            <div className="mb-6 self-center lg:mb-0">
-              <FontAwesomeIcon icon={faRust} className="text-blue-700 w-[144px]" style={{ fontSize: "144px" }}/>
-            </div>
-            <div className="flex flex-wrap justify-center text-center lg:block lg:text-left">
-              <h3 className="text-3xl font-semibold">Rust</h3>
-              <div className="mt-6 mb-8 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-                <div className="badge">DTM</div>
-              </div>
-              <p className="text-secondary">
-
-              </p>
+              <p className="text-secondary"></p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skill
+export default Skill;

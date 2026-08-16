@@ -47,7 +47,7 @@ const Portfolio: React.FC = () => {
               <div className="badge">Cloudflare</div>
             </div>
           </div>
-          {/* タスク管理アプリ */}
+          {/* フォーム作成アプリ */}
           <div>
             <h3 className="tertiary-title">フォーム作成アプリ</h3>
             <Link href="https://react-router-formly.iq87io25.workers.dev/" legacyBehavior>
@@ -101,6 +101,43 @@ const Portfolio: React.FC = () => {
               <div className="badge">Next.js</div>
               <div className="badge">Tailwind CSS</div>
               <div className="badge">Vercel</div>
+            </div>
+          </div>
+          {/* 画像修正アプリ */}
+          <div>
+            <h3 className="tertiary-title">画像修正アプリ</h3>
+            <Link href="https://color-fit-mu.vercel.app" legacyBehavior>
+              <a target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/portfolio13.png"
+                  alt="portfolio13"
+                  width={1280}
+                  height={853}
+                  className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
+                />
+              </a>
+            </Link>
+            <div className="mt-6 mb-8">
+              <div className="flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
+                <Link href="https://github.com/mshrynzw/ColorFit" legacyBehavior>
+                  <a className="badge" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      className="h-[20px] hover:text-blue-600"
+                    />
+                  </a>
+                </Link>
+                <div className="badge">React Router</div>
+                <div className="badge">Tailwind CSS</div>
+                <div className="badge">Vercel</div>
+                <div className="badge">Cloudflare R2</div>
+                <div className="badge">Python</div>
+                <div className="badge">FastAPI</div>
+                <div className="badge">Render</div>
+              </div>
+              <p className="mt-3 text-center text-xs leading-relaxed text-secondary lg:text-left">
+                Backend は Render 無料枠のため、初回アクセスに数十秒かかることがあります。
+              </p>
             </div>
           </div>
           {/* 文字縦書きアプリ */}
@@ -209,7 +246,7 @@ const Portfolio: React.FC = () => {
         </div>
 
         {/* Webデザイン */}
-        <h3 className="tertiary-title">Webデザイン</h3>
+        <h3 className="tertiary-title mt-12">Webデザイン</h3>
         <p className="section-paragraph">私が作ってきたWebデザインがこちら</p>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
